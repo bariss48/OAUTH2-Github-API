@@ -4,7 +4,7 @@ import "./App.css";
 import List from './components/List';
 import withListLoading from './components/WithListLoading';
 
-const GITHUB_CLIENT_ID = "06b2ef8c25f1d388be4e";
+const GITHUB_CLIENT_ID = "";
 const gitHubRedirectURL = "http://localhost:4000/api/auth/github";
 const path = "/";
 
@@ -31,7 +31,7 @@ function App() {
     });
     })();
   }, []);
-  
+
   return (
     <div className="App">
       {!user ? (

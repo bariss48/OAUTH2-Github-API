@@ -11,8 +11,8 @@ const app = express();
 
 app.use(cookieParser());
 
-const GITHUB_CLIENT_ID = "06b2ef8c25f1d388be4e";
-const GITHUB_CLIENT_SECRET = "d8c2018a04d2b8729ca7d561336b2dd8df5b02bf";
+const GITHUB_CLIENT_ID = "";
+const GITHUB_CLIENT_SECRET = "";
 const secret = "shhhhhhhhhhhh";
 const COOKIE_NAME = "github-jwt";
 const gitHubRedirectURL = "http://localhost:4000/api/auth/github";
